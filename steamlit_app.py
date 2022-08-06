@@ -43,3 +43,5 @@ streamlit.dataframe(my_data_rows)
 
 fruit_name = streamlit.text_input('enter ur fruit\'s name', 'banana');
 streamlit.write ('user entered fruit name', fruit_name);
+
+my_cur.execute("insert into fruint_load_list_values ('from steamlit')")
