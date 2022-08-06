@@ -40,11 +40,6 @@ expect URLError as e:
 streamlit.write('The user entered ', fruit_choice)
                       
 
-
-
-
-streamlit.dataframe(fruityvice_normalized)
-
 streamlit.stop()
 
 #import snowflake.connector
